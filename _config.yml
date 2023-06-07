@@ -12,7 +12,7 @@ github_repo: "https://github.com/HaoyuanXu/haoyuanxu.github.io" # you code repos
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-XHY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -101,9 +101,6 @@ friends: [
     {
         title: "ChatGPT",
         href: "https://chat.openai.com/"
-    # },{
-    #     title: "简书·BY",
-    #     href: "http://www.jianshu.com/u/e71990ada2fd"
     # },{
     #     title: "Apple",
     #     href: "https://apple.com"
