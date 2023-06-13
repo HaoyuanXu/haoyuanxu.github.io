@@ -66,7 +66,7 @@ gitalk:
   clientSecret: c731b012be41b3ac88b6c6408f04f8e8e3e2c943    #生成的clientSecret
   repo: haoyuanxu.github.io    #仓库名称
   owner: HaoyuanXu    #github用户名
-  admin: xhy12309
+  admin: HaoyuanXu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
