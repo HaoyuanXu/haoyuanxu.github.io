@@ -32,13 +32,22 @@ My research interest includes **large language models, agent tool learning, rein
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IAO 2022</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">IAO 2022</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
 [Wedge Angle and Direction Detection of Multi-opening Object Using Deep Learning](#)
 
 Yiwen Zhang, Si-Ao Li, Xiaoyan Wang, **Haoyuan Xu**, Jinyao Wang, Yan-Ge Liu, Weigang Zhang, Zihan Geng, Yongxiong Ren, Changjing Bao, Zhongqi Pan, and Yang Yue*
+
 - Presented at the *Imaging and Applied Optics Congress*, Vancouver, British Columbia, Canada, July 2022.
+</div>
+</div>
 
 
 
