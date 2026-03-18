@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Haoyuan Xu"
-description              : "Here's Haoyuan Xu's homepage "
-repository               : "HaoyuanXu/hyxu.github.io"
+description              : "Haoyuan Xu's homepage "
+repository               : "HaoyuanXu/haoyuanxu.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/xuhaoyuan/"
+  linkedin         : "xuhaoyuan"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0007-5651-1642"
   pinterest        :
