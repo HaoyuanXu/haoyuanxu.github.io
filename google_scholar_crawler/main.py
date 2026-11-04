@@ -3,7 +3,7 @@ import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qs, urlencode, urljoin, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -14,38 +14,18 @@ def number(text):
 
 
 def fetch_profile(session, scholar_id, start=0):
-    errors = []
-    for host in ('scholar.google.com', 'scholar.google.com.hk'):
-        url = f'https://{host}/citations'
-        response = session.get(
-            url,
-            params={'hl': 'en', 'user': scholar_id, 'pagesize': 100, 'cstart': start},
-            timeout=30,
-        )
-        print(f'{host}: HTTP {response.status_code}', flush=True)
-        if response.status_code in (403, 429):
-            errors.append(f'{host}: HTTP {response.status_code}')
-            continue
-        response.raise_for_status()
-        soup = BeautifulSoup(response.content, 'html.parser')
-        if soup.select_one('#gsc_prf_in') is None:
-            errors.append(f'{host}: author profile missing')
-            continue
-        return soup, response.url
-    source_url = 'https://scholar.google.com/citations?' + urlencode(
-        {'hl': 'en', 'user': scholar_id, 'pagesize': 100, 'cstart': start}
-    )
     response = session.get(
-        'https://r.jina.ai/' + source_url,
-        headers={'X-Return-Format': 'html', 'X-No-Cache': 'true'},
-        timeout=60,
+        'https://scholar.google.com/citations',
+        params={'hl': 'en', 'user': scholar_id, 'pagesize': 100, 'cstart': start},
+        timeout=30,
     )
-    print(f'Public page reader: HTTP {response.status_code}', flush=True)
+    print(f'Google Scholar: HTTP {response.status_code}', flush=True)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
     if soup.select_one('#gsc_prf_in') is None:
-        raise RuntimeError('Reader response is not an author profile: ' + soup.get_text(' ', strip=True)[:500])
-    return soup, source_url
+        raise RuntimeError('The response does not contain a Google Scholar author profile')
+    return soup, response.url
+
 
 
 def parse_profile(soup, scholar_id):
