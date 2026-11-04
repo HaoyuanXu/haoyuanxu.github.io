@@ -9,9 +9,13 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: google-scholar-crawler
+  cancel-in-progress: true
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
