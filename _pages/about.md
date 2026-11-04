@@ -35,6 +35,32 @@ My research interest includes **large language models, agent tool learning, rein
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
+      <div class="badge">AIR 2026</div>
+      <a href="https://doi.org/10.1007/s10462-026-11700-9">
+        <img src='images/tool-use-survey-air2026.png' alt="First-page preview of the survey on tool use in LLM agents" width="100%" loading="lazy">
+      </a>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+[The evolution of tool use in LLM agents: from single-tool call to multi-tool orchestration](https://doi.org/10.1007/s10462-026-11700-9)
+
+**Haoyuan Xu**<sup>*</sup>, Chang Li<sup>*</sup>, Xinyan Ma<sup>*</sup>, Xianhao Ou<sup>*</sup>, Zihan Zhang, Tao He, Xiangyu Liu, Zixiang Wang, Jiafeng Liang, Zheng Chu, Runxuan Liu, Rongchuan Mu, Dandan Tu, Ming Liu<sup>†</sup>, and Bing Qin
+
+*Artificial Intelligence Review*, 2026.
+
+<sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.
+
+A survey of multi-tool LLM agents covering planning and execution, training, safety, efficiency, capability completeness, and evaluation.
+
+[Paper](https://doi.org/10.1007/s10462-026-11700-9) · [GitHub](https://github.com/HaoyuanXu/awesome-multi-tool-agents) · [Citation](https://github.com/HaoyuanXu/awesome-multi-tool-agents/blob/main/citation.ris)
+
+</div>
+</div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
       <div class="badge">IAO 2022</div>
       <img src='images/500x300.png' alt="sym" width="100%">
     </div>
