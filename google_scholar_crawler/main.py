@@ -3,7 +3,7 @@ import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import parse_qs, urljoin, urlparse
+from urllib.parse import parse_qs, urlencode, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -32,7 +32,20 @@ def fetch_profile(session, scholar_id, start=0):
             errors.append(f'{host}: author profile missing')
             continue
         return soup, response.url
-    raise RuntimeError('Cannot retrieve Google Scholar profile: ' + '; '.join(errors))
+    source_url = 'https://scholar.google.com/citations?' + urlencode(
+        {'hl': 'en', 'user': scholar_id, 'pagesize': 100, 'cstart': start}
+    )
+    response = session.get(
+        'https://r.jina.ai/' + source_url,
+        headers={'X-Respond-With': 'html', 'X-No-Cache': 'true'},
+        timeout=60,
+    )
+    print(f'Public page reader: HTTP {response.status_code}', flush=True)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.content, 'html.parser')
+    if soup.select_one('#gsc_prf_in') is None:
+        raise RuntimeError('Cannot retrieve Google Scholar profile: ' + '; '.join(errors))
+    return soup, source_url
 
 
 def parse_profile(soup, scholar_id):
