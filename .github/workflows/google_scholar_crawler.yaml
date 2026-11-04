@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: [self-hosted, macOS, ARM64, homepage-scholar]
+    runs-on: [self-hosted, homepage-scholar]
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
