@@ -28,7 +28,7 @@ jobs:
         working-directory: google_scholar_crawler
         run: python -u main.py
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          GOOGLE_SCHOLAR_ID: 'GkexPYgAAAAJ'
       - name: Publish citation data
         run: |
           cp -R google_scholar_crawler/results "$RUNNER_TEMP/scholar-results"
