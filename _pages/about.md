@@ -17,16 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am **Haoyuan Xu (徐浩原)**, currently a **PhD Candidate at Harbin Institute of Technology**. My research interests include **large language models, agent tool learning, reinforcement learning and multimodal intelligence**. 
+I am **Haoyuan Xu (徐浩原)**, currently a **PhD Candidate at Harbin Institute of Technology**, advised by [Prof. Bing Qin](https://scholar.google.com/citations?user=LKnCub0AAAAJ&hl=zh-CN) and [Prof. Ming Liu](https://scholar.google.com/citations?user=VJtmTREAAAAJ&hl=en).
 
-Previously, I received my **Master of Computing** from the **National University of Singapore**, where I worked on **Video Coding for Machine (VCM)**. I earned my bachelor’s degree in **Optoelectronic Information Science and Engineering** from **Tianjin University**. 
+My research interests include **large language models, agent tool learning, reinforcement learning, vision-language models, world models, and recursive self-improvement (RSI)**.
 
-My recent research experience spans **agent tool learning**, **computer vision**, and **intelligent driving systems**.
+Previously, I received my **Master of Computing** from the **National University of Singapore**, where I worked on **Video Coding for Machine (VCM)**. I earned my bachelor’s degree in **Optoelectronic Information Science and Engineering** from **Tianjin University**.
 
-My research interest includes **large language models, agent tool learning, reinforcement learning, computer vision, vision-language models, and multimodal learning**. You can reach me via email at <a href='mailto:xhy12309@outlook.com'>xhy12309@outlook.com</a>.
+You can reach me via email at <a href='mailto:xhy12309@outlook.com'>xhy12309@outlook.com</a>.
 
 
 # 🔥 News
+- *2026.10*: &nbsp;Our survey on [multi-tool LLM agents](https://doi.org/10.1007/s10462-026-11700-9) was published in **Artificial Intelligence Review**. [Resources](https://github.com/HaoyuanXu/awesome-multi-tool-agents)
 - *2026.03*: &nbsp;Started my PhD at **Harbin Institute of Technology**.
 
 
@@ -62,12 +63,14 @@ A survey of multi-tool LLM agents covering planning and execution, training, saf
   <div class='paper-box-image'>
     <div>
       <div class="badge">IAO 2022</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <a href="https://doi.org/10.1364/ISA.2022.ITu5E.2">
+        <img src='images/wedge-angle-iao2022.png' alt="Wedge Angle and Direction Detection of Multi-opening Object Using Deep Learning, IAO 2022" width="100%" loading="lazy">
+      </a>
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
-[Wedge Angle and Direction Detection of Multi-opening Object Using Deep Learning](#)
+[Wedge Angle and Direction Detection of Multi-opening Object Using Deep Learning](https://doi.org/10.1364/ISA.2022.ITu5E.2)
 
 Yiwen Zhang, Si-Ao Li, Xiaoyan Wang, **Haoyuan Xu**, Jinyao Wang, Yan-Ge Liu, Weigang Zhang, Zihan Geng, Yongxiong Ren, Changjing Bao, Zhongqi Pan, and Yang Yue*
 
@@ -95,6 +98,7 @@ Yiwen Zhang, Si-Ao Li, Xiaoyan Wang, **Haoyuan Xu**, Jinyao Wang, Yan-Ge Liu, We
 - *None at present.*
 
 # 💻 Work Experiences
+- *2026.07 - now*, **Meituan**, LLM Algorithm Engineer, China.
 - *2024.04 - 2025.11*, **BYD Automotive New Technology Research Institute**, Senior Algorithm Engineer, China.
 - *2023.05 - 2023.09*, **Panasonic R&D Center Singapore**, Video Algorithm Engineer Intern, Singapore.
 - *2021.11 - 2022.06*, **Tianjin University**, Research Assistant, China.
