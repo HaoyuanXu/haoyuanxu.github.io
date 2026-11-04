@@ -37,14 +37,14 @@ def fetch_profile(session, scholar_id, start=0):
     )
     response = session.get(
         'https://r.jina.ai/' + source_url,
-        headers={'X-Respond-With': 'html', 'X-No-Cache': 'true'},
+        headers={'X-Return-Format': 'html', 'X-No-Cache': 'true'},
         timeout=60,
     )
     print(f'Public page reader: HTTP {response.status_code}', flush=True)
     response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
     if soup.select_one('#gsc_prf_in') is None:
-        raise RuntimeError('Cannot retrieve Google Scholar profile: ' + '; '.join(errors))
+        raise RuntimeError('Reader response is not an author profile: ' + soup.get_text(' ', strip=True)[:500])
     return soup, source_url
 
 
