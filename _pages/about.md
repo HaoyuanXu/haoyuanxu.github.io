@@ -33,8 +33,6 @@ You can reach me via email at <a href='mailto:xhy12309@outlook.com'>xhy12309@out
 
 # 📝 Publications 
 
-Google Scholar citations: <a href="https://scholar.google.com/citations?user=GkexPYgAAAAJ" target="_blank" rel="noopener"><strong id="total_cit">—</strong></a>.
-
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -56,7 +54,7 @@ Google Scholar citations: <a href="https://scholar.google.com/citations?user=Gke
 
 A survey of multi-tool LLM agents covering planning and execution, training, safety, efficiency, capability completeness, and evaluation.
 
-[Paper](https://doi.org/10.1007/s10462-026-11700-9) · [GitHub](https://github.com/HaoyuanXu/awesome-multi-tool-agents) · [Citation](https://github.com/HaoyuanXu/awesome-multi-tool-agents/blob/main/citation.ris) · <a href="https://scholar.google.com/citations?view_op=view_citation&user=GkexPYgAAAAJ&citation_for_view=GkexPYgAAAAJ:u-x6o8ySG0sC" class="show_paper_citations" data="GkexPYgAAAAJ:u-x6o8ySG0sC" target="_blank" rel="noopener">Citations: —</a>
+[Paper](https://doi.org/10.1007/s10462-026-11700-9) · [GitHub](https://github.com/HaoyuanXu/awesome-multi-tool-agents) · [Citation](https://github.com/HaoyuanXu/awesome-multi-tool-agents/blob/main/citation.ris)
 
 </div>
 </div>
@@ -78,7 +76,7 @@ Yiwen Zhang, Si-Ao Li, Xiaoyan Wang, **Haoyuan Xu**, Jinyao Wang, Yan-Ge Liu, We
 
 - Presented at the *Imaging and Applied Optics Congress*, Vancouver, British Columbia, Canada, July 2022.
 
-[Paper](https://doi.org/10.1364/ISA.2022.ITu5E.2) · <a href="https://scholar.google.com/citations?view_op=view_citation&user=GkexPYgAAAAJ&citation_for_view=GkexPYgAAAAJ:u5HHmVD_uO8C" class="show_paper_citations" data="GkexPYgAAAAJ:u5HHmVD_uO8C" target="_blank" rel="noopener">Citations: —</a>
+[Paper](https://doi.org/10.1364/ISA.2022.ITu5E.2)
 </div>
 </div>
 
